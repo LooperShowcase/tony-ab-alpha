@@ -1,0 +1,53 @@
+#title {
+  color: black;
+  font-family: "Pacifico", cursive;
+}
+body {
+  background-image: url("https://cdn.vox-cdn.com/thumbor/h0r8_KuYEt8AySCiOv2BY6J_fqA=/0x0:1200x800/1200x800/filters:focal(489x224:681x416)/cdn.vox-cdn.com/uploads/chorus_image/image/68911959/HardenReturns_Getty_Ringer.0.jpg");
+}
+#title2 {
+  font-family: "Fjalla One", sans-serif;
+  font-family: "Pacifico", cursive;
+}
+#title3 {
+  font-family: "Gluten", cursive;
+  color: azure;
+}
+table,
+th,
+tr,
+td {
+  border: 1px solid;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}

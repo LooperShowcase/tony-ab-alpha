@@ -1,0 +1,71 @@
+body {
+  background-color: black;
+}
+#div1 {
+  background-color: white;
+  color: black;
+  font-size: 30px;
+}
+#div2 {
+  background-color: white;
+  color: black;
+  font-size: 30px;
+}
+#div3 {
+  background-color: white;
+  color: black;
+  font-size: 30px;
+}
+#div4 {
+  background-color: white;
+  color: black;
+  font-size: 30px;
+}
+#div5 {
+  background-color: white;
+  color: black;
+  font-size: 30px;
+}
+table,
+th,
+tr,
+td {
+  border: 1px solid;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden background-color white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+#header7 {
+  background-color: white;
+}
+#header6 {
+  background-color: white;
+}

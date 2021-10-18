@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>highlights</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <center>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="otherplayers.html">other players</a></li>
+        <li><a href="abouttheNBA.html">about the NBA</a></li>
+        <li>
+          <a class="active" href="James Harden Highlights.html"
+            >James Harden Highlights</a
+          >
+        </li>
+        <li><button onclick="lightMode()">light mode</button></li>
+        <li><button onclick="darkMode()">dark mode</button></li>
+      </ul>
+      <h1>highlights</h1>
+      <div id="div1">
+        <h3>
+          top 10 dunks
+          <br />
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Xzfd1hjKx_o"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </h3>
+      </div>
+      <div id="div2">
+        <h3>top 10 baskets</h3>
+        <br />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/IOWlH8uSlns"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div id="div2">
+        <h3>top 10 blocks</h3>
+        <br />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/jnA16vAptWk"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div id="div2">
+        <h3>
+          top 10 assits
+          <br />
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/1ZuDyGSkOyo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </h3>
+      </div>
+      <footer id="footer">
+        <p>
+          dev: toni aboud
+          <br />
+          email: xxxxxxx@xxxxx.com
+          <br />
+          phone number: +972-525-488-441
+        </p>
+      </footer>
+    </center>
+    <script>
+      function lightMode() {
+        document.body.style.backgroundColor = "white";
+        document.getElementById("div1").style.backgroundColor = "red";
+        document.getElementById("div2").style.backgroundColor = "red";
+        document.getElementById("div3").style.backgroundColor = "red";
+        document.getElementById("div4").style.backgroundColor = "red";
+        document.getElementById("div5").style.backgroundColor = "red";
+      }
+      function darkMode() {
+        document.body.style.backgroundColor = "black";
+      }
+    </script>
+  </body>
+</html>
